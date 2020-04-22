@@ -5,6 +5,8 @@ Random ML experiments that illustrate some common concepts.
 
 * __GMM__: Vectorized implementation of the Expectation-Maximization algorithm tested on simple Gaussian Mixture Models.
 
+* __Count-Min Sketch__: A probablistic data structure used in _Big Data_ domain applications where a lot of unique data is hashed to a lower dimensional space by multiple hash functions. Used in ML systems in applications like checking set membership etc.
+
 * __L2 Regularization__: A fast and memory-efficient vectorized implementation of _L2 regularization_ that run on Numpy. Numpy has a fast C++ backend and for the same reason also bypasses the _Python GIL_. Thus, it is much faster than a looped version.
 
 * __Multi-Armed Bandits__: A test script that illustrates multi-armed bandits with updates based on the _Thomson Sampling_ procedure.
