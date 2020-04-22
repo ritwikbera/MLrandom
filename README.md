@@ -9,6 +9,8 @@ Random ML experiments that illustrate some common concepts.
 
 * __L2 Regularization__: A fast and memory-efficient vectorized implementation of _L2 regularization_ that run on Numpy. Numpy has a fast C++ backend and for the same reason also bypasses the _Python GIL_. Thus, it is much faster than a looped version.
 
+* __Isomap__: An implementation of the _Isomap_ visualization algorithm that operates on geodesic distances. Uses an _sklearn_ utility function (based on Djikstra's + Priority Queue)to compute pairwise shortest distances from a given graph's adjacency-cum-distance matrix.
+
 * __Multi-Armed Bandits__: A test script that illustrates multi-armed bandits with updates based on the _Thomson Sampling_ procedure.
 
 * __Sparsity__: A test script that shows the memory effeciency of sparse matrices stored in compressed formats.
