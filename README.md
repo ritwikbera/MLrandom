@@ -8,10 +8,11 @@ Random ML experiments that illustrate some common concepts.
 
 * __Isomap__: An implementation of the _Isomap_ visualization algorithm that operates on geodesic distances. Uses an _sklearn_ utility function (based on Djikstra's + Priority Queue)to compute pairwise shortest distances from a given graph's adjacency-cum-distance matrix.
 
+* __Pairwise Ranking__: A simple implementation of Learning to Rank using pairwise ranking trained on a SVM and a ranked list obtained through BubbleSort (a comparison-based sort). The comparator functions of the items is overriden by the trained SVM.
 
 ### Data Structures
 
-* __Count-Min Sketch__: A probablistic data structure used in _Big Data_ domain applications where a lot of unique data is hashed to a lower dimensional space by multiple hash functions. Used in ML systems in applications like checking set membership etc.
+* __Count-Min Sketch__: A probablistic data structure used in _Big Data_ domain applications where a lot of unique data is hashed to a lower dimensional space by multiple hash functions. Used in ML systems in applications like checking set membership etc. Its like a _Bloom Filter_ that can count.
 
 * __Sparsity__: A test script that shows the memory effeciency of sparse matrices stored in compressed formats.
 
